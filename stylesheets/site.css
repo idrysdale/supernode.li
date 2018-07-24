@@ -540,17 +540,23 @@ section {
 @media screen and (min-width: 50em) {
   section.banner .container {
     display: flex; } }
-@media screen and (min-width: 50em) {
-  section.banner .container .content {
-    width: 100%; } }
-section.banner .container .content p {
-  font-size: 2rem;
-  line-height: 3rem;
-  margin-bottom: 1rem; }
+section.banner .container .content {
+  margin-right: 1rem; }
+  @media screen and (min-width: 50em) {
+    section.banner .container .content {
+      width: 100%; } }
+  section.banner .container .content img {
+    max-width: 100%; }
+  section.banner .container .content p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 1rem; }
 @media screen and (min-width: 50em) {
   section.banner .container .barcode {
     width: 265px; } }
 section.banner .container .barcode img {
+  display: block;
+  margin: 0 auto;
   outline: 1px solid #DDDDDD; }
 
 /*# sourceMappingURL=site.css.map */
